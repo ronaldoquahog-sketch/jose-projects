@@ -9,7 +9,9 @@ Todos os alvos foram escritos e compilados aqui mesmo. Nenhum software de tercei
 | 3 | `bin/quadrados` (Rust) | Metadados do binário (sem cargo-auditable, deve dizer que não há crates) | `src/rust/main.rs` |
 | 4 | `bin/licenca` (C, *stripped*) | Strings, símbolos, disassembly via objdump. Desafio: achar a regra da chave | `src/c/licenca.c` |
 
-Comandos (depois de liberar a execução do REA):
+Instalação no seu computador: `bash rea-lab/instalar-rea.sh`
+
+Comandos:
 
     npx -y rea-agents@6.5.0 analyze-javascript-application "$PWD/fake-electron-app" --json
     npx -y rea-agents@6.5.0 --help   # ver os comandos de Go/Rust/ELF/objdump
